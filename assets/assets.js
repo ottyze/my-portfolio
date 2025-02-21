@@ -108,10 +108,14 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Front-End Development', description: 'Responsive, interactive UIs with React.js, Angular, and Tailwind CSS, optimized for performance and accessibility', link: '' },
+    { icon: assets.web_icon, title: 'Full-Stack Development', description: 'MERN stack applications, REST API development, authentication, and security best practices', link: '' },
+    { icon: assets.mobile_icon, title: 'API Development & Integration', description: 'RESTful APIs with Node.js/Django, secure third-party API integrations', link: '' },
+    { icon: assets.ui_icon, title: 'Web Scraping & Data Extraction', description: 'Automated data collection with Python (BeautifulSoup, Scrapy) and structured storage in various formats', link: '' },
+    { icon: assets.web_icon, title: 'Cloud Deployment & DevOps', description: 'Deployments on AWS, GCP, Heroku, Vercel, CI/CD pipelines, and serverless computing', link: '' },
+    { icon: assets.web_icon, title: 'User Authentication & Security', description: 'Implementing JWT authentication, OAuth2, and security best practices', link: '' },
+    { icon: assets.web_icon, title: 'Database Management', description: 'Setting up and managing MongoDB, MySQL, and DynamoDB', link: '' },
+    { icon: assets.web_icon, title: 'Website Optimization & SEO', description: 'Improving performance, loading speed, SEO, and Core Web Vitals', link: '' },
 ]
 
 export const infoList = [
