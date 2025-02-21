@@ -16,7 +16,7 @@ const Header = () => {
         <motion.h1
         initial={{y: -30, opacity: 0}} whileInView={{y:0, opacity: 1}} transition={{duration: 0.8, delay:0.5}}
           className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Fullstack web developer based in Melbourne Fl
+            Fullstack web developer based in Melbourne FL
         </motion.h1>
         <motion.p
         initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.7, delay:0.6}}
@@ -29,7 +29,7 @@ const Header = () => {
             href="#contact" className='px-10 py-3 border rounded-full items-center gap-2 border-white bg-black text-white flex dark:bg-transparent'>Contact Me <Image src={assets.right_arrow_white} alt="" className='w-4'/></motion.a>
             <motion.a
             initial={{y: 30, opacity: 0}} whileInView={{y:0, opacity: 1}} transition={{duration: 0.6, delay:1.2}}
-            href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full items-center gap-2 border-gray-500 flex dark:text-black bg-white'>My Resume <Image src={assets.download_icon} alt="" className='w-4'/></motion.a>
+            href="/sftwr_dev_danice.pdf" download className='px-10 py-3 border rounded-full items-center gap-2 border-gray-500 flex dark:text-black bg-white'>My Resume <Image src={assets.download_icon} alt="" className='w-4'/></motion.a>
         </div>
             
     </div>
