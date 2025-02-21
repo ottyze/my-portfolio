@@ -82,24 +82,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'E-Commerce App',
+        description: 'Web App',
         bgImage: '/work-1.png',
+        link: 'https://ravn-merchandise.vercel.app'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Movie App',
+        description: 'Web App',
         bgImage: '/work-2.png',
+        
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Imagica',
+        description: 'AI Image Generator',
         bgImage: '/work-3.png',
+        link: 'https://imagica-frontend.onrender.com'
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Article Search',
+        description: 'Web App',
         bgImage: '/work-4.png',
+        link: 'https://ottyze.github.io/react-news-article-search/'
     },
 ]
 

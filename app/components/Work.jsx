@@ -24,6 +24,7 @@ const Work = (isDarkMode) => {
       initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.6, delay:0.9}}
       className='grid grid-cols-auto my-10 gap-5 dark:text-black'>
         {workData.map((project, index)=> (
+          <a href={project.link} target="_blank" rel="noopener noreferrer" key={index}>
             <motion.div
             whileHover={{scale:1.05}} transition={{duration: 0.3}}
             className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group' key={index} 
@@ -39,6 +40,7 @@ const Work = (isDarkMode) => {
                 </div>
                 
             </motion.div>
+            </a>
         ))}
       </motion.div>
 
