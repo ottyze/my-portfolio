@@ -82,15 +82,16 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'E-Commerce App',
-        description: 'Web App',
+        title: 'Ravn',
+        description: 'E-Commerce App',
         bgImage: '/work-1.png',
         link: 'https://ravn-merchandise.vercel.app'
     },
     {
-        title: 'Movie App',
-        description: 'Web App',
-        bgImage: '/work-2.png',
+        title: 'Crypto Tracker',
+        description: 'Coin Price Tracker',
+        bgImage: '/bitcoin-img.png',
+        link: 'https://crypto-one-xi.vercel.app/'
         
     },
     {
