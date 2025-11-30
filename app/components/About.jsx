@@ -27,7 +27,7 @@ const About = ({isDarkMode}) => {
         initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.6, delay:0.8}}
         className='flex-1'>
             <p className='mb-10 max-w-2xl font-Ovo'>
-            I am a Full-Stack Developer with expertise in React.js, Node.js, Django, and cloud deployment. With hands-on experience from internships at eBiashara Africa Ltd and YoFinVoice, I have built scalable web applications, optimized performance, and implemented secure authentication systems (JWT, OAuth2).
+            I am a Full-Stack Developer with expertise in React.js, Node.js, Django, ASP.NET Core, and cloud deployment. With hands-on experience from Satcom Direct and Zontal, I have built scalable web applications, optimized performance, and implemented secure authentication systems (JWT, OAuth2).
             I have developed and deployed projects, including e-commerce and movie web applications, leveraging modern frameworks and cloud platforms like AWS and Google Cloud. Passionate about problem-solving and efficiency, I thrive in Agile environments and enjoy collaborating to create impactful solutions.
             Let's connect and build something amazing! 🚀
             </p>
